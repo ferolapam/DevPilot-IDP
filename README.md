@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/devpilot-idp-banner.svg" alt="DevPilot-IDP Banner" width="100%">
+</p>
+
 # DevPilot-IDP – Internal Developer Platform Prototype
 
 DevPilot-IDP é um protótipo de Internal Developer Platform (IDP) projetado para demonstrar como uma plataforma de engenharia pode acelerar a jornada do desenvolvedor, garantindo autonomia, governança, provisionamento inteligente, padronização técnica e operabilidade desde o primeiro deploy.
@@ -121,6 +125,7 @@ npm start
 
 Portal disponível em:  
 http://localhost:4200
+
 
 
 
