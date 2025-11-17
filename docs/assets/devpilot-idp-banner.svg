@@ -1,27 +1,30 @@
 <svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
   <defs>
+    <!-- Fundo geral -->
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#020617"/>
       <stop offset="50%" stop-color="#111827"/>
       <stop offset="100%" stop-color="#0B1120"/>
     </linearGradient>
 
+    <!-- Gradiente dos pills principais (logo) -->
     <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#2563EB"/>
       <stop offset="50%" stop-color="#38BDF8"/>
       <stop offset="100%" stop-color="#22C55E"/>
     </linearGradient>
 
+    <!-- Gradiente SUAVE e padronizado dos chips de stack -->
     <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1D4ED8"/>
-      <stop offset="100%" stop-color="#22C55E"/>
+      <stop offset="0%" stop-color="#1E40AF"/>  <!-- azul mais fechado -->
+      <stop offset="100%" stop-color="#15803D"/> <!-- verde suave -->
     </linearGradient>
   </defs>
 
   <!-- Background -->
   <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
 
-  <!-- Grid / platform effect -->
+  <!-- Grid / efeito plataforma -->
   <g opacity="0.15">
     <path d="M80 260 H1120" stroke="#4B5563" stroke-width="1"/>
     <path d="M80 230 H1120" stroke="#4B5563" stroke-width="1"/>
@@ -36,9 +39,10 @@
     <path d="M1000 120 V300" stroke="#4B5563" stroke-width="1"/>
   </g>
 
-  <!-- Left logo block -->
+  <!-- Card esquerdo -->
   <rect x="80" y="80" width="210" height="210" rx="32" fill="#020617" stroke="#1F2937" stroke-width="1.5"/>
 
+  <!-- Logo pill -->
   <rect x="115" y="120" width="80" height="80" rx="24" fill="url(#pillGrad)"/>
   <path d="M140 140 L170 160 L140 180 Z" fill="#F9FAFB"/>
 
@@ -49,7 +53,7 @@
     Internal Developer Platform Prototype
   </text>
 
-  <!-- Main title -->
+  <!-- Título principal -->
   <text x="330" y="130" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="30" font-weight="600">
     DevPilot-IDP
   </text>
@@ -57,40 +61,44 @@
     Internal Developer Platform focada em automação, DevX e cloud-native.
   </text>
 
-  <!-- Pills -->
-  <rect x="330" y="200" rx="999" width="200" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
+  <!-- Pills de valor -->
+  <rect x="330" y="200" rx="999" width="240" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
   <text x="345" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Provisionamento automatizado
   </text>
 
-  <rect x="550" y="200" rx="999" width="210" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
-  <text x="565" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
+  <rect x="600" y="200" rx="999" width="260" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
+  <text x="615" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Governança leve e padronização
   </text>
 
-  <rect x="780" y="200" rx="999" width="240" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
-  <text x="795" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
+  <rect x="900" y="200" rx="999" width="260" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
+  <text x="915" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Foco em Developer Experience
   </text>
 
-  <!-- Little "chips" summarizing stack -->
-  <rect x="330" y="250" rx="10" width="120" height="28" fill="url(#chipGrad)" opacity="0.95"/>
+  <!-- Chips de stack PADRONIZADOS com chipGrad -->
+  <!-- Java 21 · Spring Boot -->
+  <rect x="330" y="250" rx="10" width="180" height="28" fill="url(#chipGrad)" opacity="0.98"/>
   <text x="342" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Java 21 · Spring Boot
   </text>
 
-  <rect x="470" y="250" rx="10" width="110" height="28" fill="#0F172A"/>
-  <text x="482" y="268" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="12">
+  <!-- Angular Portal -->
+  <rect x="530" y="250" rx="10" width="150" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="542" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Angular Portal
   </text>
 
-  <rect x="600" y="250" rx="10" width="150" height="28" fill="#0F172A"/>
-  <text x="612" y="268" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="12">
+  <!-- Python CLI · Compliance -->
+  <rect x="710" y="250" rx="10" width="210" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="722" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Python CLI · Compliance
   </text>
 
-  <rect x="770" y="250" rx="10" width="170" height="28" fill="#0F172A"/>
-  <text x="782" y="268" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="12">
+  <!-- Platform Engineering · IDP -->
+  <rect x="950" y="250" rx="10" width="220" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="962" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Platform Engineering · IDP
   </text>
 </svg>
