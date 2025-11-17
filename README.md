@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="docs/assets/devpilot-idp-banner.svg" alt="DevPilot-IDP Banner" width="100%">
+  <img src="docs/assets/devpilot-idp-banner.svg"
+       alt="DevPilot-IDP – Internal Developer Platform focada em automação, DevX e cloud-native"
+       style="width:100%; max-width:1300px;">
 </p>
 
 # DevPilot-IDP – Internal Developer Platform Prototype
@@ -125,6 +127,7 @@ npm start
 
 Portal disponível em:  
 http://localhost:4200
+
 
 
 
