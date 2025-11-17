@@ -14,9 +14,9 @@
       <stop offset="100%" stop-color="#22C55E"/>
     </linearGradient>
 
-    <!-- Gradiente SUAVE e padronizado dos chips de stack -->
+    <!-- Gradiente SUAVE e PADRONIZADO dos chips de stack -->
     <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#1E40AF"/>  <!-- azul mais fechado -->
+      <stop offset="0%" stop-color="#1E40AF"/>  <!-- azul fechado -->
       <stop offset="100%" stop-color="#15803D"/> <!-- verde suave -->
     </linearGradient>
   </defs>
@@ -25,7 +25,7 @@
   <rect x="0" y="0" width="1200" height="360" fill="url(#bgGrad)"/>
 
   <!-- Grid / efeito plataforma -->
-  <g opacity="0.15">
+  <g opacity="0.18">
     <path d="M80 260 H1120" stroke="#4B5563" stroke-width="1"/>
     <path d="M80 230 H1120" stroke="#4B5563" stroke-width="1"/>
     <path d="M80 200 H1120" stroke="#4B5563" stroke-width="1"/>
@@ -46,10 +46,11 @@
   <rect x="115" y="120" width="80" height="80" rx="24" fill="url(#pillGrad)"/>
   <path d="M140 140 L170 160 L140 180 Z" fill="#F9FAFB"/>
 
-  <text x="120" y="230" fill="#9CA3AF" font-family="Segoe UI, system-ui" font-size="14">
+  <!-- Textos do card esquerdo -->
+  <text x="120" y="230" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="14" font-weight="600">
     DevPilot-IDP
   </text>
-  <text x="120" y="252" fill="#6B7280" font-family="Segoe UI, system-ui" font-size="11">
+  <text x="120" y="252" fill="#9CA3AF" font-family="Segoe UI, system-ui" font-size="11">
     Internal Developer Platform Prototype
   </text>
 
@@ -61,44 +62,44 @@
     Internal Developer Platform focada em automação, DevX e cloud-native.
   </text>
 
-  <!-- Pills de valor -->
+  <!-- Pills de valor (linha de cima) -->
   <rect x="330" y="200" rx="999" width="240" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
   <text x="345" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Provisionamento automatizado
   </text>
 
-  <rect x="600" y="200" rx="999" width="260" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
-  <text x="615" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
+  <rect x="590" y="200" rx="999" width="260" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
+  <text x="605" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Governança leve e padronização
   </text>
 
-  <rect x="900" y="200" rx="999" width="260" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
-  <text x="915" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
+  <rect x="880" y="200" rx="999" width="270" height="34" fill="#020617" stroke="#1E293B" stroke-width="1"/>
+  <text x="895" y="222" fill="#E5E7EB" font-family="Segoe UI, system-ui" font-size="13">
     • Foco em Developer Experience
   </text>
 
-  <!-- Chips de stack PADRONIZADOS com chipGrad -->
+  <!-- Chips de stack PADRONIZADOS (todos com chipGrad) -->
   <!-- Java 21 · Spring Boot -->
-  <rect x="330" y="250" rx="10" width="180" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <rect x="330" y="250" rx="10" width="190" height="28" fill="url(#chipGrad)" opacity="0.98"/>
   <text x="342" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Java 21 · Spring Boot
   </text>
 
   <!-- Angular Portal -->
-  <rect x="530" y="250" rx="10" width="150" height="28" fill="url(#chipGrad)" opacity="0.98"/>
-  <text x="542" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
+  <rect x="540" y="250" rx="10" width="160" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="552" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Angular Portal
   </text>
 
   <!-- Python CLI · Compliance -->
-  <rect x="710" y="250" rx="10" width="210" height="28" fill="url(#chipGrad)" opacity="0.98"/>
-  <text x="722" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
+  <rect x="730" y="250" rx="10" width="210" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="742" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Python CLI · Compliance
   </text>
 
   <!-- Platform Engineering · IDP -->
-  <rect x="950" y="250" rx="10" width="220" height="28" fill="url(#chipGrad)" opacity="0.98"/>
-  <text x="962" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
+  <rect x="970" y="250" rx="10" width="210" height="28" fill="url(#chipGrad)" opacity="0.98"/>
+  <text x="982" y="268" fill="#F9FAFB" font-family="Segoe UI, system-ui" font-size="12">
     Platform Engineering · IDP
   </text>
 </svg>
